@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity
 {
     private final String TAG = MainActivity.class.getSimpleName();
     public String link = "https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/food/products/classify";
+   //String link = "https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/156992";
     Button send;
     EditText number;
     EditText tags;
@@ -38,8 +39,6 @@ public class MainActivity extends AppCompatActivity
         number = (EditText) findViewById(R.id.number);
         tags = (EditText) findViewById(R.id.tags);
         list = (ListView) findViewById(R.id.listView);
-
-        plapplapla
 
                 
         send.setOnClickListener(new View.OnClickListener()
